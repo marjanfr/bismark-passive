@@ -4,6 +4,7 @@ BUILD_DIR ?= build
 EXE ?= bismark-passive.bin
 TEST_EXE ?= tests
 HASHER_EXE ?= bismark-passive-hasher
+DISABLE_ANONYMIZATION = true
 CFLAGS += -c -Wall -O3 -fno-strict-aliasing
 LDFLAGS += -lpcap -lresolv -lz
 
